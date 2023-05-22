@@ -45,7 +45,6 @@ public:
 	void show() {
 		cout << year << "/" << month << "/" << namber << endl;
 	}
-
 };
 
 int main()
