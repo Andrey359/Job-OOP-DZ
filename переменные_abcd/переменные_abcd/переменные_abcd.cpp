@@ -39,17 +39,17 @@ int main()
 
 	//C
 	map<string, vector<float>> C;
-	C["one"] = {1};
+	C["three"] = {3};
 	cout << "C: " << endl;
 	for (const auto &name : C) {
 		cout << "Ключ: " <<  name.first << endl;
-		for (auto vec : C["one"]) {
+		for (auto vec : C["three"]) {
 			cout << "Значение: " << vec << endl;;
 		}
 	}
 
 	//D
-	X d(3);
+	X d(2);
 	vector<X*> vec;
 	vec.push_back(&d);
 	for (auto a : vec) {
